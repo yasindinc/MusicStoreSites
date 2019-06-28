@@ -13,11 +13,7 @@ namespace MusicStoreSites.Core.DAL.EntityFramework
         where TEntity : BaseEntity, new()
         where TContext : DbContext, new()
     {
-        TContext ctx;
-        private EFRepositoryBase()
-        {
-            ctx = EFSingletonContext<TContext>.Instance;
-        }
+        TContext ctx = EFSingletonContext<TContext>.Instance;
         public void Add(TEntity entity)
         {
             ctx.Set<TEntity>().Add(entity);

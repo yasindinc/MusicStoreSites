@@ -7,6 +7,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreSites.Core", "Mus
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreSites.Model", "MusicStoreSites.Model\MusicStoreSites.Model.csproj", "{824C1FAD-5D8B-4FB0-9B8F-79C43F2E4767}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreSites.DAL", "MusicStoreSites.DAL\MusicStoreSites.DAL.csproj", "{0BC81824-FF54-4117-9CF8-C1D63F2C89EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreSites.BLL", "MusicStoreSites.BLL\MusicStoreSites.BLL.csproj", "{E7F0B0CD-6FFC-431D-9560-74D194F6E54B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MusicStoreSites.UI.MVC", "MusicStoreSites.UI.MVC\MusicStoreSites.UI.MVC.csproj", "{990902CC-C005-4683-B5D4-09517724F874}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{824C1FAD-5D8B-4FB0-9B8F-79C43F2E4767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{824C1FAD-5D8B-4FB0-9B8F-79C43F2E4767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{824C1FAD-5D8B-4FB0-9B8F-79C43F2E4767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC81824-FF54-4117-9CF8-C1D63F2C89EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC81824-FF54-4117-9CF8-C1D63F2C89EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC81824-FF54-4117-9CF8-C1D63F2C89EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC81824-FF54-4117-9CF8-C1D63F2C89EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F0B0CD-6FFC-431D-9560-74D194F6E54B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F0B0CD-6FFC-431D-9560-74D194F6E54B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F0B0CD-6FFC-431D-9560-74D194F6E54B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F0B0CD-6FFC-431D-9560-74D194F6E54B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{990902CC-C005-4683-B5D4-09517724F874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{990902CC-C005-4683-B5D4-09517724F874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{990902CC-C005-4683-B5D4-09517724F874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{990902CC-C005-4683-B5D4-09517724F874}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
