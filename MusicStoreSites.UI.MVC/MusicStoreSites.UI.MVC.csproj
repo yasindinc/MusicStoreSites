@@ -48,20 +48,16 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
-    <Reference Include="Ninject, Version=3.3.3.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ninject.3.3.3\lib\net45\Ninject.dll</HintPath>
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.3.2.0.0\lib\net45-full\Ninject.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Ninject.Web.Common, Version=3.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ninject.Web.Common.3.3.0\lib\net45\Ninject.Web.Common.dll</HintPath>
+    <Reference Include="Ninject.Web.Common, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.Web.Common.3.2.0.0\lib\net45-full\Ninject.Web.Common.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Ninject.Web.Common.WebHost, Version=3.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ninject.Web.Common.WebHost.3.3.0\lib\net45\Ninject.Web.Common.WebHost.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
-    <Reference Include="Ninject.Web.Mvc, Version=3.3.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
-      <HintPath>..\packages\Ninject.MVC5.3.3.0\lib\net45\Ninject.Web.Mvc.dll</HintPath>
+    <Reference Include="Ninject.Web.Mvc, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <HintPath>..\packages\Ninject.MVC4.3.2.1.0\lib\net45-full\Ninject.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.DynamicData" />
@@ -80,6 +76,10 @@
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.2.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System.Web.Razor">
@@ -105,25 +105,130 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap\css\bootstrap-grid.css" />
-    <Content Include="Content\bootstrap\css\bootstrap-grid.min.css" />
-    <Content Include="Content\bootstrap\css\bootstrap-reboot.css" />
-    <Content Include="Content\bootstrap\css\bootstrap-reboot.min.css" />
-    <Content Include="Content\bootstrap\css\bootstrap.css" />
-    <Content Include="Content\bootstrap\css\bootstrap.min.css" />
-    <Content Include="Content\CustomCSS\heroic-features.css" />
+    <Content Include="Content\audio\dummy-audio.mp3" />
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\default-assets\audioplayer.css" />
+    <Content Include="Content\css\default-assets\classy-nav.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\fonts\ElegantIcons.svg" />
+    <Content Include="Content\css\magnific-popup.css" />
+    <Content Include="Content\css\owl.carousel.min.css" />
+    <Content Include="Content\css\style.css" />
+    <Content Include="Content\img\bg-img\1.jpg" />
+    <Content Include="Content\img\bg-img\10.jpg" />
+    <Content Include="Content\img\bg-img\11.jpg" />
+    <Content Include="Content\img\bg-img\12.jpg" />
+    <Content Include="Content\img\bg-img\13.jpg" />
+    <Content Include="Content\img\bg-img\14.jpg" />
+    <Content Include="Content\img\bg-img\15.jpg" />
+    <Content Include="Content\img\bg-img\16.jpg" />
+    <Content Include="Content\img\bg-img\17.jpg" />
+    <Content Include="Content\img\bg-img\18.jpg" />
+    <Content Include="Content\img\bg-img\19.jpg" />
+    <Content Include="Content\img\bg-img\2.jpg" />
+    <Content Include="Content\img\bg-img\20.jpg" />
+    <Content Include="Content\img\bg-img\21.jpg" />
+    <Content Include="Content\img\bg-img\22.jpg" />
+    <Content Include="Content\img\bg-img\23.jpg" />
+    <Content Include="Content\img\bg-img\24.jpg" />
+    <Content Include="Content\img\bg-img\25.jpg" />
+    <Content Include="Content\img\bg-img\26.jpg" />
+    <Content Include="Content\img\bg-img\27.jpg" />
+    <Content Include="Content\img\bg-img\28.jpg" />
+    <Content Include="Content\img\bg-img\29.jpg" />
+    <Content Include="Content\img\bg-img\3.jpg" />
+    <Content Include="Content\img\bg-img\30.jpg" />
+    <Content Include="Content\img\bg-img\31.jpg" />
+    <Content Include="Content\img\bg-img\32.jpg" />
+    <Content Include="Content\img\bg-img\33.jpg" />
+    <Content Include="Content\img\bg-img\34.jpg" />
+    <Content Include="Content\img\bg-img\35.jpg" />
+    <Content Include="Content\img\bg-img\36.jpg" />
+    <Content Include="Content\img\bg-img\37.jpg" />
+    <Content Include="Content\img\bg-img\38.jpg" />
+    <Content Include="Content\img\bg-img\39.jpg" />
+    <Content Include="Content\img\bg-img\4.jpg" />
+    <Content Include="Content\img\bg-img\40.jpg" />
+    <Content Include="Content\img\bg-img\41.jpg" />
+    <Content Include="Content\img\bg-img\42.jpg" />
+    <Content Include="Content\img\bg-img\43.jpg" />
+    <Content Include="Content\img\bg-img\44.jpg" />
+    <Content Include="Content\img\bg-img\45.jpg" />
+    <Content Include="Content\img\bg-img\46.jpg" />
+    <Content Include="Content\img\bg-img\47.jpg" />
+    <Content Include="Content\img\bg-img\48.jpg" />
+    <Content Include="Content\img\bg-img\49.jpg" />
+    <Content Include="Content\img\bg-img\5.jpg" />
+    <Content Include="Content\img\bg-img\50.jpg" />
+    <Content Include="Content\img\bg-img\51.jpg" />
+    <Content Include="Content\img\bg-img\52.jpg" />
+    <Content Include="Content\img\bg-img\53.jpg" />
+    <Content Include="Content\img\bg-img\54.jpg" />
+    <Content Include="Content\img\bg-img\55.jpg" />
+    <Content Include="Content\img\bg-img\56.jpg" />
+    <Content Include="Content\img\bg-img\57.jpg" />
+    <Content Include="Content\img\bg-img\58.jpg" />
+    <Content Include="Content\img\bg-img\59.jpg" />
+    <Content Include="Content\img\bg-img\6.jpg" />
+    <Content Include="Content\img\bg-img\60.jpg" />
+    <Content Include="Content\img\bg-img\61.jpg" />
+    <Content Include="Content\img\bg-img\62.jpg" />
+    <Content Include="Content\img\bg-img\63.jpg" />
+    <Content Include="Content\img\bg-img\64.jpg" />
+    <Content Include="Content\img\bg-img\65.jpg" />
+    <Content Include="Content\img\bg-img\66.jpg" />
+    <Content Include="Content\img\bg-img\67.jpg" />
+    <Content Include="Content\img\bg-img\68.jpg" />
+    <Content Include="Content\img\bg-img\69.jpg" />
+    <Content Include="Content\img\bg-img\7.jpg" />
+    <Content Include="Content\img\bg-img\70.jpg" />
+    <Content Include="Content\img\bg-img\71.jpg" />
+    <Content Include="Content\img\bg-img\72.jpg" />
+    <Content Include="Content\img\bg-img\73.jpg" />
+    <Content Include="Content\img\bg-img\74.jpg" />
+    <Content Include="Content\img\bg-img\75.jpg" />
+    <Content Include="Content\img\bg-img\76.jpg" />
+    <Content Include="Content\img\bg-img\77.jpg" />
+    <Content Include="Content\img\bg-img\8.jpg" />
+    <Content Include="Content\img\bg-img\9.jpg" />
+    <Content Include="Content\img\bg-img\album.png" />
+    <Content Include="Content\img\bg-img\mockup-iphone.png" />
+    <Content Include="Content\img\core-img\app-store.png" />
+    <Content Include="Content\img\core-img\favicon.ico" />
+    <Content Include="Content\img\core-img\google-play.png" />
+    <Content Include="Content\img\core-img\itunes.png" />
+    <Content Include="Content\img\core-img\logo.png" />
+    <Content Include="Content\img\core-img\logo2.png" />
+    <Content Include="Content\style.css" />
+    <Content Include="fonts\classy.svg" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\jquery\jquery.js" />
-    <Content Include="Scripts\jquery\jquery.min.js" />
-    <Content Include="Scripts\jquery\jquery.slim.js" />
-    <Content Include="Scripts\jquery\jquery.slim.min.js" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.bundle.js" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.bundle.min.js" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.js" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.min.js" />
+    <Content Include="Scripts\gulpfile.js" />
+    <Content Include="Scripts\js\bootstrap.min.js" />
+    <Content Include="Scripts\js\default-assets\active.js" />
+    <Content Include="Scripts\js\default-assets\audioplayer.js" />
+    <Content Include="Scripts\js\default-assets\avoid.console.error.js" />
+    <Content Include="Scripts\js\default-assets\classynav.js" />
+    <Content Include="Scripts\js\default-assets\jquery.scrollup.min.js" />
+    <Content Include="Scripts\js\imagesloaded.pkgd.min.js" />
+    <Content Include="Scripts\js\isotope.pkgd.min.js" />
+    <Content Include="Scripts\js\jarallax-video.min.js" />
+    <Content Include="Scripts\js\jarallax.min.js" />
+    <Content Include="Scripts\js\jquery.countdown.min.js" />
+    <Content Include="Scripts\js\jquery.counterup.min.js" />
+    <Content Include="Scripts\js\jquery.easing.min.js" />
+    <Content Include="Scripts\js\jquery.magnific-popup.min.js" />
+    <Content Include="Scripts\js\jquery.min.js" />
+    <Content Include="Scripts\js\owl.carousel.min.js" />
+    <Content Include="Scripts\js\popper.min.js" />
+    <Content Include="Scripts\js\razo.bundle.js" />
+    <Content Include="Scripts\js\waypoints.min.js" />
+    <Content Include="Scripts\js\wow.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Global.asax.cs">
@@ -134,20 +239,44 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
-    <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Shared\NavigationFooter.cshtml" />
-    <Content Include="Content\bootstrap\css\bootstrap-grid.css.map" />
-    <Content Include="Content\bootstrap\css\bootstrap-grid.min.css.map" />
-    <Content Include="Content\bootstrap\css\bootstrap-reboot.css.map" />
-    <Content Include="Content\bootstrap\css\bootstrap-reboot.min.css.map" />
-    <Content Include="Content\bootstrap\css\bootstrap.css.map" />
-    <Content Include="Content\bootstrap\css\bootstrap.min.css.map" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.bundle.js.map" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.bundle.min.js.map" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.js.map" />
-    <Content Include="Scripts\bootstrap\js\bootstrap.min.js.map" />
-    <Content Include="Scripts\jquery\jquery.min.map" />
-    <Content Include="Scripts\jquery\jquery.slim.min.map" />
+    <Content Include="Content\css\fonts\ElegantIcons.eot" />
+    <Content Include="Content\css\fonts\ElegantIcons.ttf" />
+    <Content Include="Content\css\fonts\ElegantIcons.woff" />
+    <Content Include="fonts\classy.eot" />
+    <Content Include="fonts\classy.ttf" />
+    <Content Include="fonts\classy.woff" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="Content\scss\mixins\_flex.scss" />
+    <Content Include="Content\scss\mixins\_miscellaneous.scss" />
+    <Content Include="Content\scss\style.scss" />
+    <Content Include="Content\scss\utilities\_color.scss" />
+    <Content Include="Content\scss\utilities\_fonts.scss" />
+    <Content Include="Content\scss\utilities\_responsive.scss" />
+    <Content Include="Content\scss\utilities\_variables.scss" />
+    <Content Include="Content\scss\_app-download.scss" />
+    <Content Include="Content\scss\_backtotop.scss" />
+    <Content Include="Content\scss\_blog.scss" />
+    <Content Include="Content\scss\_buttons.scss" />
+    <Content Include="Content\scss\_contact.scss" />
+    <Content Include="Content\scss\_event.scss" />
+    <Content Include="Content\scss\_footer.scss" />
+    <Content Include="Content\scss\_header.scss" />
+    <Content Include="Content\scss\_heading.scss" />
+    <Content Include="Content\scss\_hero.scss" />
+    <Content Include="Content\scss\_music_chart.scss" />
+    <Content Include="Content\scss\_podcast.scss" />
+    <Content Include="Content\scss\_preloader.scss" />
+    <Content Include="Content\scss\_reboot.scss" />
+    <Content Include="Content\scss\_show.scss" />
+    <Content Include="Content\scss\_spacing.scss" />
+    <Content Include="Content\scss\_table.scss" />
+    <Content Include="Content\style.css.map" />
+    <Content Include="Views\Account\Register.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

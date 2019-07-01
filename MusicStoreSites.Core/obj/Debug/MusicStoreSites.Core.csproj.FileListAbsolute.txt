@@ -1,0 +1,10 @@
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\bin\Debug\MusicStoreSites.Core.dll.config
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\bin\Debug\MusicStoreSites.Core.dll
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\bin\Debug\MusicStoreSites.Core.pdb
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\bin\Debug\EntityFramework.dll
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\bin\Debug\EntityFramework.xml
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\obj\Debug\MusicStoreSites.Core.csprojResolveAssemblyReference.cache
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\obj\Debug\MusicStoreSites.Core.dll
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Core\obj\Debug\MusicStoreSites.Core.pdb

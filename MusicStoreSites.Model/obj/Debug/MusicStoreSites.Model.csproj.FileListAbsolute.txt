@@ -1,0 +1,9 @@
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\bin\Debug\MusicStoreSites.Model.dll
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\bin\Debug\MusicStoreSites.Model.pdb
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\bin\Debug\MusicStoreSites.Core.dll
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\bin\Debug\EntityFramework.dll
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\bin\Debug\MusicStoreSites.Core.pdb
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\bin\Debug\EntityFramework.xml
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\obj\Debug\MusicStoreSites.Model.csprojResolveAssemblyReference.cache
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\obj\Debug\MusicStoreSites.Model.dll
+C:\Users\yasin.dinc\Documents\GitHub\MusicStoreSites\MusicStoreSites.Model\obj\Debug\MusicStoreSites.Model.pdb

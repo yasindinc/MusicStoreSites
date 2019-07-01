@@ -9,7 +9,7 @@ using MusicStoreSites.DAL.Abstract;
 
 namespace MusicStoreSites.BLL.Concrete
 {
-    class ShipperService : IShipperService
+    public class ShipperService : IShipperService
     {
         IShipperDAL _shipperDAL;
         public ShipperService(IShipperDAL shipperDAL)
