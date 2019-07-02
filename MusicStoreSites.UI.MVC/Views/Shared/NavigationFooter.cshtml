@@ -98,8 +98,6 @@
                                             <li> @Html.ActionLink("Application name", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })</li>
                                             <li><a href="./charts.html">- Charts</a></li>
                                             <li><a href="./single-charts.html">- Charts Details</a></li>
-                                            <li><a href="./podcast.html">- Podcast</a></li>
-                                            <li><a href="./single-podcast.html">- Podcast Details</a></li>
                                             <li><a href="./show.html">- Show</a></li>
                                             <li><a href="./events.html">- Event</a></li>
                                             <li><a href="./blog.html">- Blog</a></li>
@@ -117,7 +115,6 @@
                                     </li>
                                     <li><a href="./show.html">Shows</a></li>
                                     <li><a href="./charts.html">Charts</a></li>
-                                    <li><a href="./podcast.html">Podcasts</a></li>
                                     <li>
                                         <a href="#">Mega</a>
                                         <div class="megamenu">
@@ -138,8 +135,6 @@
                                             <ul class="single-mega cn-col-4">
                                                 <li><a href="./charts.html">- Charts</a></li>
                                                 <li><a href="./single-charts.html">- Charts Details</a></li>
-                                                <li><a href="./podcast.html">- Podcast</a></li>
-                                                <li><a href="./single-podcast.html">- Podcast Details</a></li>
                                                 <li><a href="./show.html">- Show</a></li>
                                             </ul>
                                             <ul class="single-mega cn-col-4">
@@ -153,15 +148,8 @@
                                     </li>
                                     <li><a href="./events.html">Events</a></li>
                                     <li><a href="./blog.html">Blog</a></li>
-                                </ul>
-
-                                <!-- Share Icon -->
-                                <div class="social-share-icon">
-                                    <i class="social_share"></i>
-                                </div>
-
-                                <!-- Search Icon -->
-                                <i class="fas fa-user"><a href="@Url.Action("Login","Account")"></a></i>
+                                    <li><a href="@Url.Action("Login","Account")"><i class="fas fa-user fa-2x"></i></a></li>
+                                </ul> 
                             </div>
                             <!-- Nav End -->
                         </div>
@@ -445,6 +433,7 @@
     <script src="~/Scripts/js/razo.bundle.js"></script>
     <!-- Active -->
     <script src="~/Scripts/js/default-assets/active.js"></script>
+    @RenderSection("scripts",false)
 
 </body>
 </html>

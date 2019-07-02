@@ -19,11 +19,12 @@
                             @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
                         </p>
                         <p>
-                            <label>Ad:</label>
+                            <label>Şifre:</label>
                             @Html.TextBoxFor(x => x.Password, new { @class = "form-control", type="password" })
                         </p>
                         <p>
                             <input type="submit" name="name" value="Giriş Yap" class="btn btn-success" />
+                            @Html.ActionLink("Üye Ol","Register",null,new {@class="btn btn-success"})
                         </p>
                     </fieldset>
                 }

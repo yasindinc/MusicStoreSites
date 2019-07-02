@@ -115,6 +115,7 @@
     <Content Include="Content\css\magnific-popup.css" />
     <Content Include="Content\css\owl.carousel.min.css" />
     <Content Include="Content\css\style.css" />
+    <Content Include="Content\Images\placeholder.gif" />
     <Content Include="Content\img\bg-img\1.jpg" />
     <Content Include="Content\img\bg-img\10.jpg" />
     <Content Include="Content\img\bg-img\11.jpg" />
@@ -231,9 +232,14 @@
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="CustomFilter\CustomFilter.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\CartItemDTO.cs" />
+    <Compile Include="Models\MyCart.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tools\MailHelper.cs" />
     <Compile Include="Views\HomeController.cs" />
@@ -281,6 +287,12 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\_GenreMenu.cshtml" />
+    <Content Include="Views\Home\_GenreOfAlbums.cshtml" />
+    <Content Include="Views\Home\_DiscontinuedAlbums.cshtml" />
+    <Content Include="Views\Home\_LastFiveAlbums.cshtml" />
+    <Content Include="Views\Cart\Index.cshtml" />
+    <Content Include="Views\Cart\_CartList.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -290,7 +302,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MusicStoreSites.BLL\MusicStoreSites.BLL.csproj">
