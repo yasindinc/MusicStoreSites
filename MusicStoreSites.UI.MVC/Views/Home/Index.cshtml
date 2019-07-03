@@ -89,5 +89,15 @@
                 }
             });
         }
+        function AddToMyCart(aid) {
+            $.ajax({
+                type: "Get",
+                url: '@Url.Action("AddToCart","Cart")',
+                data: { id: aid },
+                success: function (data) {
+                    $("#sepet").html(data);
+                }
+            });
+        }
     </script>
 }
